@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import { renderPath } from "../../../lib.es2015/operators/renderPath";
-import { interpolate } from "../../../lib.es2015/interpolate";
 import { timeline } from "just-animate";
+import { renderPath } from "polymorph-js/lib.es2015/operators/renderPath";
+import { interpolate } from "polymorph-js/lib.es2015/interpolate";
 
 export default {
     data() {

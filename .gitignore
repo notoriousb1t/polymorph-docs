@@ -4,10 +4,3 @@
 .vs
 npm-debug.log*
 /node_modules
-/lib
-/lib.es2015
-/types
-/src/**/*.js
-/src/**/*.map
-/test/**/*.js
-/test/**/*.map

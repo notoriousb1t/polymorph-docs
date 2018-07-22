@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { parsePath } from "../../../lib.es2015/operators/parsePath";
+import { parsePath } from "polymorph-js/lib.es2015/operators/parsePath";
 import { Svgo } from "../svgomg/svgo";
 
 export default {
