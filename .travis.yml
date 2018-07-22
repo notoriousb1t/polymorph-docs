@@ -24,4 +24,4 @@ deploy:
   target-branch: master
   local-dir: docs/.vuepress/dist
   on:
-branch: source
+    branch: source
