@@ -1,7 +1,7 @@
 module.exports = { 
   title: "Polymorph",
   description: "Get Your SVG into Shape!",
-  base: "/polymorph/",
+  base: "/polymorph-js/",
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
