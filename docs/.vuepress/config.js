@@ -7,6 +7,7 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
+        { text: "About", link: "/about.md" },
         { text: "Setup", link: "/setup.md" },
         { text: "API Reference", link: "/api.md" }
     ]
