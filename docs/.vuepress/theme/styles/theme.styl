@@ -58,7 +58,7 @@ body {
   overflow-y: auto;
 }
 
-.content:not(.custom) {
+.content__default {
   max-width: $contentWidth;
   margin: 0 auto;
   padding: 2rem 2.5rem;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.25;
 
-  .content:not(.custom) > & {
+  .content__default > & {
     margin-top: 0.5rem - $navbarHeight;
     padding-top: ($navbarHeight + 1rem);
     margin-bottom: 0;
@@ -220,7 +220,7 @@ th, td {
   }
 
   &.no-navbar {
-    .content:not(.custom) > {
+    .content__default > {
       h1, h2, h3, h4, h5, h6 {
         margin-top: 1.5rem;
         padding-top: 0;
