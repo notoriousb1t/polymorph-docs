@@ -16,6 +16,10 @@
     "url": "https://github.com/notoriousb1t/polymorph/issues"
   },
   "homepage": "https://github.com/notoriousb1t/polymorph#readme",
+  "engines": {
+    "node": "^16",
+    "npm": "^7"
+  },
   "devDependencies": {
     "vuepress": "^1.9.8"
   }
