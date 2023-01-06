@@ -1,6 +1,6 @@
 {
   "name": "polymorph-js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Morph SVG shapes",
   "scripts": {
     "build": "vuepress build docs",
