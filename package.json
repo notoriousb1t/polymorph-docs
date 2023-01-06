@@ -1,22 +1,22 @@
 {
-  "author": "Christopher Wallis",
-  "bugs": {
-    "url": "https://github.com/notoriousb1t/polymorph/issues"
-  },
-  "description": "Morph SVG shapes",
-  "devDependencies": {
-    "vuepress": "^1.9.8"
-  },
-  "homepage": "https://github.com/notoriousb1t/polymorph#readme",
-  "license": "MIT",
   "name": "polymorph-js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/notoriousb1t/polymorph"
-  },
+  "version": "0.0.0",
+  "description": "Morph SVG shapes",
   "scripts": {
     "build": "vuepress build docs",
     "docs:dev": "vuepress dev docs"
   },
-  "version": "0.0.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notoriousb1t/polymorph"
+  },
+  "author": "Christopher Wallis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notoriousb1t/polymorph/issues"
+  },
+  "homepage": "https://github.com/notoriousb1t/polymorph#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.8"
+  }
 }
