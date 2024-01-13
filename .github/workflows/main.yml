@@ -1,17 +1,25 @@
 name: source:MASTER
-on: [push]
+on:
+  # trigger deployment on every push to source branch
+  push:
+    branches: [source]
+  # trigger deployment manually
+  workflow_dispatch:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
-    - name: Build and Deploy
-      uses: jenkey2011/vuepress-deploy@v1.8.1
+    - name: Build VuePress site
+      run: npm run docs:build
+
+    - name: Deploy to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v4
+      with:
+        target_branch: master
+        build_dir: docs/.vuepress/dist
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: jenkey2011/vuepress-deploy-demo-target
-        TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn docs:build
-        BUILD_DIR: docs/.vuepress/dist/
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
