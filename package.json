@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/notoriousb1t/polymorph#readme",
   "engines": {
-    "node": "v19.7.0",
+    "node": "14.21.3",
     "npm": "9.5.0"
   },
   "devDependencies": {
