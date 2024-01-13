@@ -17,6 +17,3 @@ Get morphing with these animation library guides:
 
 - [Popmotion Guide](/guide/getting-started-popmotion.md)
 - [GSAP Guide](/guide/getting-started-gsap.md)
-- [Just Animate Guide](/guide/getting-started-just-animate.md) _(Coming Soon)_
-- [nm8 Guide](/guide/getting-started-nm8.md) _(Coming Soon)_
-- [TweenRex Guide](/guide/getting-started-tweenrex.md) _(Coming Soon)_

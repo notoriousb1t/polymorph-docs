@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/notoriousb1t/polymorph#readme",
   "engines": {
-    "node": "^16",
-    "npm": "^7"
+    "node": "v19.7.0",
+    "npm": "9.5.0"
   },
   "devDependencies": {
-    "vuepress": "^1.9.8"
+    "vuepress": "1.9.10"
   }
 }
