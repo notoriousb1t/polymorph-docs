@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Build VuePress site
-      run: npm run docs:build
+      run: npm i && npm run docs:build
 
     - name: Deploy to GitHub Pages
       uses: crazy-max/ghaction-github-pages@v4
