@@ -1,6 +1,8 @@
 .alm
-.vscode
+.cache
 .idea
+.temp
 .vs
+.vscode
 npm-debug.log*
-/node_modules
+node_modules

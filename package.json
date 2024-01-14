@@ -1,26 +1,21 @@
 {
-  "name": "polymorph-js",
+  "name": "polymorph-docs",
   "version": "1.0.0",
-  "description": "Morph SVG shapes",
+  "description": "Docs for morphing SVG paths",
+  "main": "index.js",
   "scripts": {
-    "docs:build": "vuepress build docs",
-    "docs:dev": "vuepress dev docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/notoriousb1t/polymorph"
-  },
+  "keywords": [],
   "author": "Christopher Wallis",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/notoriousb1t/polymorph/issues"
-  },
-  "homepage": "https://github.com/notoriousb1t/polymorph#readme",
-  "engines": {
-    "node": "14.21.3",
-    "npm": "9.5.0"
-  },
   "devDependencies": {
-    "vuepress": "1.9.10"
+    "@vuepress/client": "2.0.0-rc.0",
+    "vue": "^3.4.13",
+    "vuepress": "2.0.0-rc.0"
+  },
+  "dependencies": {
+    "@vuepress/theme-default": "2.0.0-rc.0"
   }
 }
